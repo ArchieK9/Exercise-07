@@ -1,0 +1,75 @@
+/* .attribution { font-size: 11px; text-align: center; } */
+/* .attribution a { color: hsl(228, 45%, 44%); } */
+body{
+   background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+   background-repeat: no-repeat, no-repeat;
+   background-position-x: -110%, 200%;
+   background-position-y: 190%, -100%;
+   background-size: auto;
+   background-color: hsl(228, 45%, 44%);
+   text-align: center;
+   box-sizing: border-box;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.profile{
+    width: 24rem;
+    height: 25rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(
+        to top,
+        #fff 0%,
+        #fff 65%,
+        hsl(185, 75%, 39%) 65%,
+        hsl(185, 75%, 39%) 100%
+        );
+    display: fex;
+    align-items: center;
+    justify-content: none;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 3rem;
+    position: relative;
+    top: 25%;    
+}
+
+.bio{
+    text-align: center;
+    position: relative;
+    top: 25%;
+    font-family: 'Kumbh Sans' sans-serif;
+}
+
+.no{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.info{
+    font-family: 'Kumbh Sans' sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40%;
+}
+
+hr{
+    position: relative;
+    top: 15%;
+}
+
+.no1{
+    display: inline-block;
+}
+@media (max-width: 375px) {
+    .profile{
+        width: 20rem;
+    }
+    
+}
